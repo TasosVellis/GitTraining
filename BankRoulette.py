@@ -12,3 +12,5 @@ names = namesAsCSV.split(", ")
 number = random.randint(0, len(names) - 1)
 bill_payer = names[number]
 print(f"{bill_payer} is going to buy the meal today!")
+
+print("Done!")
